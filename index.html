@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>House of gambling</title>
+</head>
+<body>
+  <div class="header-main-wrapper">
+    <header class="header">
+      <h1 class="header__logo">LOGO</h1>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <a class="header__link" href="#">About us</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__link" href="#">Brands</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__link" href="#">Commissions</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__link" href="#">News</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__link" href="#">Contact us</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__link" href="#">Careers</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__buttons">
+        <button class="header__button button_navy button" onclick="toggleLanguage()">  
+          <img src="./assets/icons/planet.svg" alt="planet" class="header__planet"><span id="lang" >EN</span>
+        </button>
+        <button class="header__button button_navy button">LOG IN</button>
+        <button class="header__button button_blue button">SIGN UP</button>
+      </div>
+
+      <div class="header__hamburger-wrapper">
+        <button class="header__button_planet button_navy button">  
+          <img src="./assets/icons/planet.svg" alt="planet" class="header__planet_big">
+        </button>
+        <div class="header__hamburger-menu">
+          <input id="header__menu-toggle" type="checkbox">
+          <label class="menu__btn" for="header__menu-toggle">
+            <span></span>
+          </label>
+          <div class="header__menu-box-wrapper">
+            <ul class="header__menu-box">
+              <li class="header__menu-box-item">
+                <a class="header__menu-box-link" href="#">About us</a>
+              </li>
+              <li class="header__menu-box-item">
+                <a class="header__menu-box-link" href="#">Brands</a>
+              </li>
+              <li class="header__menu-box-item">
+                <a class="header__menu-box-link" href="#">Commissions</a>
+              </li>
+              <li class="header__menu-box-item">
+                <a class="header__menu-box-link" href="#">News</a>
+              </li>
+              <li class="header__menu-box-item">
+                <a class="header__menu-box-link" href="#">Contact us</a>
+              </li>
+              <li class="header__menu-box-item">
+                <a class="header__menu-box-link" href="#">Careers</a>
+              </li>
+            </ul>
+            <div class="header__menu-box-buttons">
+              <button class="header__menu-box-button button_navy button">LOG IN</button>
+              <button class="header__menu-box-button button_blue button">SIGN UP</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main home-page">
+      <div class="home-page__article">
+        <div class="home-page__article-wrapper">
+          <h2 class="home-page__title_clean home-page__title">HOUSE OF</h2>
+          <h2 class="home-page__title_blue home-page__title">GAMBLING</h2>
+          <div class="home-page__text">Raise your ROI with direct advertiser</div>
+          <button class="button button_blue home-page__button">Become a Partner</button>
+        </div>
+      </div>
+      <div class="home-page__chips_vertical home-page__chips">
+        <div class="home-page__chips-row track_up">
+          <img src="./assets/icons/letter.png" class="home-page__chip" alt="letter">
+          <img src="./assets/icons/shield.png" class="home-page__chip" alt="shield">
+          <img src="./assets/icons/money.png" class="home-page__chip" alt="money">
+          <img src="./assets/icons/soccer.png" class="home-page__chip" alt="soccer">
+          <img src="./assets/icons/letter.png" class="home-page__chip" alt="letter">
+          <img src="./assets/icons/shield.png" class="home-page__chip" alt="shield">
+          <img src="./assets/icons/money.png" class="home-page__chip" alt="money">
+          <img src="./assets/icons/soccer.png" class="home-page__chip" alt="soccer">
+        </div>
+        <div class="home-page__chips-row track_down track_left">
+          <img src="./assets/icons/letter_beige.png" class="home-page__chip" alt="letter">
+          <img src="./assets/icons/timer.png" class="home-page__chip" alt="timer">
+          <img src="./assets/icons/crown.png" class="home-page__chip" alt="crown">
+          <img src="./assets/icons/world.png" class="home-page__chip" alt="world">
+          <img src="./assets/icons/letter_beige.png" class="home-page__chip" alt="letter">
+          <img src="./assets/icons/timer.png" class="home-page__chip" alt="timer">
+          <img src="./assets/icons/crown.png" class="home-page__chip" alt="crown">
+          <img src="./assets/icons/world.png" class="home-page__chip" alt="world">
+        </div>
+        <div class="home-page__chips-row track_up track_right">
+          <img src="./assets/icons/money.png" class="home-page__chip" alt="money">
+          <img src="./assets/icons/letter_blue.png" class="home-page__chip" alt="letter">
+          <img src="./assets/icons/shield.png" class="home-page__chip" alt="shield">
+          <img src="./assets/icons/soccer_beige.png" class="home-page__chip" alt="soccer">
+          <img src="./assets/icons/money.png" class="home-page__chip" alt="money">
+          <img src="./assets/icons/letter_blue.png" class="home-page__chip" alt="letter">
+          <img src="./assets/icons/shield.png" class="home-page__chip" alt="shield">
+          <img src="./assets/icons/soccer_beige.png" class="home-page__chip" alt="soccer">
+        </div>
+      </div>
+      <div class="home-page__chips_horizontal home-page__chips">
+        <div class="home-page__chips-row track_right">
+          <img src="./assets/icons/letter.png" class="home-page__chip_horizontal" alt="letter">
+          <img src="./assets/icons/shield.png" class="home-page__chip_horizontal" alt="shield">
+          <img src="./assets/icons/money_horizontal.png" class="home-page__chip_horizontal" alt="money">
+          <img src="./assets/icons/soccer.png" class="home-page__chip_horizontal" alt="soccer">
+          <img src="./assets/icons/letter.png" class="home-page__chip_horizontal" alt="letter">
+          <img src="./assets/icons/shield.png" class="home-page__chip_horizontal" alt="shield">
+          <img src="./assets/icons/money_horizontal.png" class="home-page__chip_horizontal" alt="money">
+          <img src="./assets/icons/soccer.png" class="home-page__chip_horizontal" alt="soccer">
+        </div>
+        <div class="home-page__chips-row track_left">
+          <img src="./assets/icons/letter_beige.png" class="home-page__chip_horizontal" alt="letter">
+          <img src="./assets/icons/timer.png" class="home-page__chip_horizontal" alt="timer">
+          <img src="./assets/icons/crown.png" class="home-page__chip_horizontal" alt="crown">
+          <img src="./assets/icons/World_horizontal.png" class="home-page__chip_horizontal" alt="world">
+          <img src="./assets/icons/letter_beige.png" class="home-page__chip_horizontal" alt="letter">
+          <img src="./assets/icons/timer.png" class="home-page__chip_horizontal" alt="timer">
+          <img src="./assets/icons/crown.png" class="home-page__chip_horizontal" alt="crown">
+          <img src="./assets/icons/World_horizontal.png" class="home-page__chip_horizontal" alt="world">
+        </div>
+        <div class="home-page__chips-row track_right">
+          <img src="./assets/icons/money_horizontal.png" class="home-page__chip_horizontal" alt="money">
+          <img src="./assets/icons/letter_blue.png" class="home-page__chip_horizontal" alt="letter">
+          <img src="./assets/icons/shield.png" class="home-page__chip_horizontal" alt="shield">
+          <img src="./assets/icons/soccer_beige.png" class="home-page__chip_horizontal" alt="soccer">
+          <img src="./assets/icons/money_horizontal.png" class="home-page__chip_horizontal" alt="money">
+          <img src="./assets/icons/letter_blue.png" class="home-page__chip_horizontal" alt="letter">
+          <img src="./assets/icons/shield.png" class="home-page__chip_horizontal" alt="shield">
+          <img src="./assets/icons/soccer_beige.png" class="home-page__chip_horizontal" alt="soccer">
+        </div>
+      </div>
+      <div class="home-page__blog">
+        <h3 class="home-page__blog-title">BLOG</h3>
+        <div class="home-page__container-wrapper">
+          <div class="home-page__container">
+            <div class="home-page__info">
+              <a href="#" class="home-page__content">Payment methods: Skrill, Neteller, webmoney, Bank transfer</a>
+              <p class="home-page__date">10.02.2023</p>
+            </div>
+            <div class="home-page__info">
+              <p class="home-page__content">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+              <p class="home-page__date">10.02.2023</p>
+            </div>
+            <div class="home-page__info">
+              <p class="home-page__content">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+              <p class="home-page__date">10.02.2023</p>
+            </div>
+            <div class="home-page__info">
+              <p class="home-page__content">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+              <p class="home-page__date">10.02.2023</p>
+            </div>
+            <div class="home-page__info">
+              <p class="home-page__content">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+              <p class="home-page__date">10.02.2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <nav class="footer__nav">
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Terms & Conditions</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Cookies</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Contacts</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Careers</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Brand Guide</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__media">
+        <p class="footer__text">Our social media</p>
+        <ul class="footer__list">
+          <li class="footer__media-item">
+            <a href="https://twitter.com" class="tw-link footer__media-link"></a>
+          </li>
+          <li class="footer__media-item">
+            <a href="https://facebook.com" class="fb-link footer__media-link"></a>
+          </li>
+          <li class="footer__media-item">
+            <a href="https://instagram.com" class="ig-link footer__media-link"></a>
+          </li>
+          <li class="footer__media-item">
+            <a href="https://linkedin.com" class="in-link footer__media-link"></a>
+          </li>
+          <li class="footer__media-item">
+            <a href="https://youtube.com" class="tube-link footer__media-link"></a>
+          </li>
+          <li class="footer__media-item">
+            <a href="https://tiktok.com" class="tt-link footer__media-link"></a>
+          </li>
+          <li class="footer__media-item">
+            <a href="https://web.telegram.org" class="tg-link footer__media-link"></a>
+          </li>
+          <li class="footer__media-item">
+            <a href="https://vk.com" class="vk-link footer__media-link"></a>
+          </li>
+        </ul>
+    </div>
+    </div>
+  </footer>
+  <script>
+    function toggleLanguage() {
+      let lang = document.getElementById("lang");
+      lang.innerHTML === "EN" ? lang.innerHTML = "BY" : lang.innerHTML = "EN"
+    }
+  </script>
+</body>
+</html>
